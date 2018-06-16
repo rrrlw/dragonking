@@ -12,7 +12,6 @@ Description: This package provide statistical methods to identify events in a
     Research Paper Series No. 15-28.
 License: GPL-3
 Encoding: UTF-8
-LazyData: true
 URL: https://github.com/rrrlw/dragonking
 BugReports: https://github.com/rrrlw/dragonking/issues
 RoxygenNote: 6.0.1
