@@ -1,11 +1,17 @@
 Package: dragonking
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Statistical Tools to Identify Dragon Kings
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(person("Raoul", "Wadhwa", email = "raoulwadhwa@gmail.com", role = c("aut", "cre")),
+             person("Peter", "Erdi", email = "peter.erdi@kzoo.edu", role = "aut"))
+Description: This package provide statistical methods to identify events in a
+    dataset that are dragon kings (DKs). The statistical methods in this
+    package were reviewed in: Wheatley S, Sornette D (2015). Multiple
+    outlier detection in samples with exponential & pareto tails: Redeeming
+    the inward approach & detecting dragon kings. Swiss Finance Institute
+    Research Paper Series N 15-28.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/rrrlw/dragonking
+BugReports: https://github.com/rrrlw/dragonking/issues
