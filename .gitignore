@@ -1,0 +1,8 @@
+# ignore journal articles
+*.pdf
+
+# ignore Rstudio files
+*.Rproj
+.Rproj.user
+
+
