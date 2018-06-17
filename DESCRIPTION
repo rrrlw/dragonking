@@ -3,7 +3,11 @@ Type: Package
 Title: Statistical Tools to Identify Dragon Kings
 Version: 0.1.0
 Authors@R: c(person("Raoul", "Wadhwa", email = "raoulwadhwa@gmail.com", role = c("aut", "cre")),
-             person("Peter", "Erdi", email = "peter.erdi@kzoo.edu", role = "aut"))
+             person("Christian", "Kelley", role = "aut"),
+             person("Daniel", "Qin", role = "aut"),
+             person("Osaulenko", "Viacheslav", role = "aut"),
+             person("Judit", "Szente", role = "aut"),
+             person("Peter", "Erdi", role = "aut"))
 Description: Statistical tests and test statistics to identify events in a
     dataset that are dragon kings (DKs). The statistical methods in this
     package were reviewed in: Wheatley S, Sornette D (2015). Multiple
