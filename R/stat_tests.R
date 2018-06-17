@@ -5,17 +5,9 @@
 #' test statistic and corresponding p-value to aid in determining whether
 #' there is significant support for the existence of \code{r} DKs in
 #' \code{vals}.
-#'
-#' For more information, see:
-#'
-#' Wheatley S, Sornette D (2015). Multiple outlier detection in samples with
-#' exponential & pareto tails: Redeeming the inward approach & detecting
-#' dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. doi:
-#' 10.2139/ssrn.2645709
-#'
-#' Pisarenko VF, Sornette D (2012). Robust statistical tests of dragon-kings
-#' beyond power law distributions. Eur Phys J Special Topics, 205: 95-115.
-#' doi: 10.1140/epjst/e2012-01564-8
+#' 
+#' @references Wheatley S, Sornette D (2015). Multiple outlier detection in samples with exponential & pareto tails: Redeeming the inward approach & detecting dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. <doi:10.2139/ssrn.2645709>
+#' @references Pisarenko VF, Sornette D (2012). Robust statistical tests of dragon-kings beyond power law distributions. \emph{Eur Phys J Special Topics}, \strong{205}: 95-115. <doi:10.1140/epjst/e2012-01564-8>
 #'
 #' @param vals  numeric vector with at least 3 elements
 #' @param r integer indicating number of DKs in \code{vals}

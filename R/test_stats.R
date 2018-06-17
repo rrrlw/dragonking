@@ -5,24 +5,10 @@
 #' there is significant support for the existence of \code{r} DKs in
 #' \code{vals}. This test is susceptible to swamping.
 #'
-#' For more information, see:
-#'
-#' Wheatley S, Sornette D (2015). Multiple outlier detection in samples with
-#' exponential & pareto tails: Redeeming the inward approach & detecting
-#' dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. doi:
-#' 10.2139/ssrn.2645709
-#'
-#' Balakrishnan K (1996). Exponential distribution: Theory, methods and
-#' applications. \emph{CRC Press}. pp. 228-30. ISBN: 9782884491921
-#'
-#' Chikkagoudar MS, Kunchur SH (1983). Distributions of test statistics for
-#' multiple outliers in exponential samples. \emph{Commun Stat Theory Methods}, \strong{12}:
-#' 2127-42. doi: 10.1080/03610928308828596
-#'
-#' Lewis T, Fieller NRJ (1979). A recursive algorithm for null distributions
-#' for outliers: I gamma samples. \emph{Technometrics}, \strong{21}(3): 371-6. doi:
-#' 10.2307/1267762
-#'
+#' @references Wheatley S, Sornette D (2015). Multiple outlier detection in samples with exponential & pareto tails: Redeeming the inward approach & detecting dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. <doi:10.2139/ssrn.2645709>
+#' @references Balakrishnan K (1996). Exponential distribution: Theory, methods and applications. \emph{CRC Press}. pp. 228-30. ISBN: 9782884491921
+#' @references Chikkagoudar MS, Kunchur SH (1983). Distributions of test statistics for multiple outliers in exponential samples. \emph{Commun Stat Theory Methods}, \strong{12}: 2127-42. <doi:10.1080/03610928308828596>
+#' @references Lewis T, Fieller NRJ (1979). A recursive algorithm for null distributions for outliers: I gamma samples. \emph{Technometrics}, \strong{21}(3): 371-6. <doi:10.2307/1267762>
 #' @param vals  numeric vector with at least 3 elements
 #' @param r integer indicating number of DKs in \code{vals}
 #' @return SS test statistic
@@ -53,16 +39,8 @@ ss_stat <- function(vals, r) {
 #' there is significant support for the existence of \code{r} DKs in
 #' \code{vals}. This test provides robustness to denominator masking.
 #'
-#' For more information, see:
-#'
-#' Wheatley S, Sornette D (2015). Multiple outlier detection in samples with
-#' exponential & pareto tails: Redeeming the inward approach & detecting
-#' dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. doi:
-#' 10.2139/ssrn.2645709
-#'
-#' Iglewicz B, Martinez J (1982). Outlier detection using robust measures of
-#' scale. \emph{J Stat Comput Simul}, \strong{15}(4): 285-93. doi: 10.1080/00949658208810595
-#'
+#' @references Wheatley S, Sornette D (2015). Multiple outlier detection in samples with exponential & pareto tails: Redeeming the inward approach & detecting dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. <doi:10.2139/ssrn.2645709>
+#' @references Iglewicz B, Martinez J (1982). Outlier detection using robust measures of scale. \emph{J Stat Comput Simul}, \strong{15}(4): 285-93. <doi:10.1080/00949658208810595>
 #' @param vals  numeric vector with at least 3 elements
 #' @param r integer indicating number of DKs in \code{vals}
 #' @param m pre-specified maximum number of DKs in \code{vals}
@@ -97,19 +75,9 @@ srs_stat <- function(vals, r, m) {
 #' less powerful in the case of clustered outliers, in comparison to the SS
 #' and SRS test statistics.
 #'
-#' For more information, see:
-#'
-#' Wheatley S, Sornette D (2015). Multiple outlier detection in samples with
-#' exponential & pareto tails: Redeeming the inward approach & detecting
-#' dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. doi:
-#' 10.2139/ssrn.2645709
-#'
-#' Hawkins DM (1980). Identification of outliers, vol. 11. \emph{Chapman and Hall}.
-#' ISBN: 9789401539944
-#'
-#' Kimber AC (1982). Tests for many outliers in an exponential sample. \emph{Appl
-#' Statist}, \strong{31}(3): 263-71. doi: 10.2307/2348000
-#'
+#' @references Wheatley S, Sornette D (2015). Multiple outlier detection in samples with exponential & pareto tails: Redeeming the inward approach & detecting dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. <doi:10.2139/ssrn.2645709>
+#' @references Hawkins DM (1980). Identification of outliers, vol. 11. \emph{Chapman and Hall}. ISBN: 9789401539944
+#' @references Kimber AC (1982). Tests for many outliers in an exponential sample. \emph{Appl Statist}, \strong{31}(3): 263-71. <doi:10.2307/2348000>
 #' @param vals  numeric vector with at least 3 elements
 #' @param r integer indicating number of DKs in \code{vals}
 #' @return MS test statistic
@@ -140,13 +108,7 @@ ms_stat <- function(vals, r) {
 #' there is significant support for the existence of \code{r} DKs in
 #' \code{vals}. This test avoids denominator masking.
 #'
-#' For more information, see:
-#'
-#' Wheatley S, Sornette D (2015). Multiple outlier detection in samples with
-#' exponential & pareto tails: Redeeming the inward approach & detecting
-#' dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. doi:
-#' 10.2139/ssrn.2645709
-#'
+#' @references Wheatley S, Sornette D (2015). Multiple outlier detection in samples with exponential & pareto tails: Redeeming the inward approach & detecting dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. <doi:10.2139/ssrn.2645709>
 #' @param vals  numeric vector with at least 3 elements
 #' @param r integer indicating number of DKs in \code{vals}
 #' @param m pre-specified maximum number of DKs in \code{vals}
@@ -180,19 +142,9 @@ mrs_stat <- function(vals, r, m) {
 #' \code{vals}. This test is less susceptible to swamping and masking, but is
 #' also less powerful than the SS and SRS test statistics.
 #'
-#' For more information, see:
-#'
-#' Wheatley S, Sornette D (2015). Multiple outlier detection in samples with
-#' exponential & pareto tails: Redeeming the inward approach & detecting
-#' dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. doi:
-#' 10.2139/ssrn.2645709
-#'
-#' Dixon WJ (1950). Analysis of extreme values. \emph{Ann Math Stat}, \strong{21}(4): 488-506.
-#' doi: 10.1214/aoms/1177729747
-#'
-#' Likes J (1967). Distribution of Dixon's statistics in the case of an
-#' exponential population. \emph{Metrika}, \strong{11}(1): 46-54. doi: 10.1007/bf02613574
-#'
+#' @references Wheatley S, Sornette D (2015). Multiple outlier detection in samples with exponential & pareto tails: Redeeming the inward approach & detecting dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. <doi:10.2139/ssrn.2645709>
+#' @references Dixon WJ (1950). Analysis of extreme values. \emph{Ann Math Stat}, \strong{21}(4): 488-506. <doi:10.1214/aoms/1177729747>
+#' @references Likes J (1967). Distribution of Dixon's statistics in the case of an exponential population. \emph{Metrika}, \strong{11}(1): 46-54. <doi:10.1007/bf02613574>
 #' @param vals  numeric vector with at least 3 elements
 #' @param r integer indicating number of DKs in \code{vals}
 #' @return Dixon test statistic

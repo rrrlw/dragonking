@@ -10,10 +10,7 @@ Authors@R: c(person("Raoul", "Wadhwa", email = "raoulwadhwa@gmail.com", role = c
              person("Peter", "Erdi", role = "aut"))
 Description: Statistical tests and test statistics to identify events in a
     dataset that are dragon kings (DKs). The statistical methods in this
-    package were reviewed in: Wheatley S, Sornette D (2015). Multiple
-    outlier detection in samples with exponential & pareto tails: Redeeming
-    the inward approach & detecting dragon kings. Swiss Finance Institute
-    Research Paper Series No. 15-28.
+    package were reviewed in Wheatley & Sornette (2015) <doi:10.2139/ssrn.2645709>.
 License: GPL-3
 Encoding: UTF-8
 URL: https://github.com/rrrlw/dragonking

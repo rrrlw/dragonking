@@ -21,20 +21,6 @@ there is significant support for the existence of \code{r} DKs in
 less powerful in the case of clustered outliers, in comparison to the SS
 and SRS test statistics.
 }
-\details{
-For more information, see:
-
-Wheatley S, Sornette D (2015). Multiple outlier detection in samples with
-exponential & pareto tails: Redeeming the inward approach & detecting
-dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. doi:
-10.2139/ssrn.2645709
-
-Hawkins DM (1980). Identification of outliers, vol. 11. \emph{Chapman and Hall}.
-ISBN: 9789401539944
-
-Kimber AC (1982). Tests for many outliers in an exponential sample. \emph{Appl
-Statist}, \strong{31}(3): 263-71. doi: 10.2307/2348000
-}
 \examples{
 # generate a numeric vector with DKs
 temp <- c(rexp(100),   # exponentially distributed RV
@@ -42,4 +28,11 @@ temp <- c(rexp(100),   # exponentially distributed RV
 
 # calculate test statistic for DKs
 ms_stat(temp, r = 3)
+}
+\references{
+Wheatley S, Sornette D (2015). Multiple outlier detection in samples with exponential & pareto tails: Redeeming the inward approach & detecting dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. <doi:10.2139/ssrn.2645709>
+
+Hawkins DM (1980). Identification of outliers, vol. 11. \emph{Chapman and Hall}. ISBN: 9789401539944
+
+Kimber AC (1982). Tests for many outliers in an exponential sample. \emph{Appl Statist}, \strong{31}(3): 263-71. <doi:10.2307/2348000>
 }

@@ -21,14 +21,6 @@ MRS test statistic
 there is significant support for the existence of \code{r} DKs in
 \code{vals}. This test avoids denominator masking.
 }
-\details{
-For more information, see:
-
-Wheatley S, Sornette D (2015). Multiple outlier detection in samples with
-exponential & pareto tails: Redeeming the inward approach & detecting
-dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. doi:
-10.2139/ssrn.2645709
-}
 \examples{
 # generate a numeric vector with DKs
 temp <- c(rexp(100),   # exponentially distributed RV
@@ -36,4 +28,7 @@ temp <- c(rexp(100),   # exponentially distributed RV
 
 # calculate test statistic for DKs
 mrs_stat(temp, r = 2, m = 3)
+}
+\references{
+Wheatley S, Sornette D (2015). Multiple outlier detection in samples with exponential & pareto tails: Redeeming the inward approach & detecting dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. <doi:10.2139/ssrn.2645709>
 }

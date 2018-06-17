@@ -20,20 +20,6 @@ there is significant support for the existence of \code{r} DKs in
 \code{vals}. This test is less susceptible to swamping and masking, but is
 also less powerful than the SS and SRS test statistics.
 }
-\details{
-For more information, see:
-
-Wheatley S, Sornette D (2015). Multiple outlier detection in samples with
-exponential & pareto tails: Redeeming the inward approach & detecting
-dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. doi:
-10.2139/ssrn.2645709
-
-Dixon WJ (1950). Analysis of extreme values. \emph{Ann Math Stat}, \strong{21}(4): 488-506.
-doi: 10.1214/aoms/1177729747
-
-Likes J (1967). Distribution of Dixon's statistics in the case of an
-exponential population. \emph{Metrika}, \strong{11}(1): 46-54. doi: 10.1007/bf02613574
-}
 \examples{
 # generate a numeric vector with DKs
 temp <- c(rexp(100),   # exponentially distributed RV
@@ -41,4 +27,11 @@ temp <- c(rexp(100),   # exponentially distributed RV
 
 # calculate test statistic for DKs
 dixon_stat(temp, r = 3)
+}
+\references{
+Wheatley S, Sornette D (2015). Multiple outlier detection in samples with exponential & pareto tails: Redeeming the inward approach & detecting dragon kings. Swiss Finance Institute Research Paper Series No. 15-28. <doi:10.2139/ssrn.2645709>
+
+Dixon WJ (1950). Analysis of extreme values. \emph{Ann Math Stat}, \strong{21}(4): 488-506. <doi:10.1214/aoms/1177729747>
+
+Likes J (1967). Distribution of Dixon's statistics in the case of an exponential population. \emph{Metrika}, \strong{11}(1): 46-54. <doi:10.1007/bf02613574>
 }
