@@ -1,6 +1,7 @@
 # dragonking: An R package implementing statistical tool for identification of dragon kings
 
 [![Travis-CI Build Status](https://travis-ci.org/rrrlw/dragonking.svg?branch=master)](https://travis-ci.org/rrrlw/dragonking)
+[![](http://www.r-pkg.org/badges/version/dragonking)](https://CRAN.R-project.org/package=dragonking)
 
 ## Purpose
 
