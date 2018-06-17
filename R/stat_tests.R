@@ -36,7 +36,7 @@ dk_test <- function(vals, r) {
   ## make sure all parameters look okay
   # should throw stop() ERRORs if something's not right
   check_param_vals(vals)
-  check_param_r(r)
+  check_param_r(r, length(vals))
 
   vals <- as.numeric(vals)
   r <- as.integer(r)
@@ -62,9 +62,9 @@ dk_test <- function(vals, r) {
   test.stat <- num / den
 
   ## calculate p-value
-  p.val <- pf(q = test.stat,
-              df1 = 2 * r, df2 = 2 * (n - r),
-              lower.tail = FALSE)
+  p.val <- stats::pf(q = test.stat,
+                     df1 = 2 * r, df2 = 2 * (n - r),
+                     lower.tail = FALSE)
 
   ## return test statistic, p-value
   ans <- c(test.stat, p.val)
