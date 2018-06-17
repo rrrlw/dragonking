@@ -4,5 +4,4 @@
 # ignore Rstudio files
 *.Rproj
 .Rproj.user
-
-
+.Rhistory
