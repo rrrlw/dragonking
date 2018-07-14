@@ -3,6 +3,7 @@
 [![Travis-CI Build Status](https://travis-ci.org/rrrlw/dragonking.svg?branch=master)](https://travis-ci.org/rrrlw/dragonking)
 [![](http://www.r-pkg.org/badges/version/dragonking)](https://CRAN.R-project.org/package=dragonking)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![CRAN Downloads](http://cranlogs.r-pkg.org/badges/grand-total/dragonking)](https://CRAN.R-project.org/package=dragonking)
 
 ## Purpose
 
